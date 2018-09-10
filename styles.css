@@ -45,7 +45,7 @@ body {
   padding: 0 0 1em 0;
   font-size: 1.2em;
   font-weight: 50;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
 }
 
 .masthead__logo {
@@ -73,7 +73,7 @@ img.masthead__logo  {
   justify-content: center;
   flex-wrap: wrap;
   background: #f0f0f0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   font-weight: 1000;
   font-size: 1.2em;
   text-decoration: none;
