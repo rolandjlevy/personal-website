@@ -1,3 +1,13 @@
+<!--
+Things to add:
+- fixed menu at the top
+- social media icons
+- smooth scrolling for jumpto links
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+- apply Consolas font
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,9 +24,12 @@
 
 <body>
   <div class="app">
+    <div id="home"></div>
     <header class="masthead">
         <div>
-        <img class="masthead__logo" src="images/logo-curly-braces-orange.png">   
+            <a href="#home" class="masthead__logo__link">
+              <img class="masthead__logo" src="images/logo-curly-braces-orange.png">
+            </a> 
         </div>
           <div class="masthead__text">         
           <h1 class="masthead__text__main">Roland Levy</h1>
@@ -28,6 +41,7 @@
             <li><a href="#projects">PROJECTS</a></li>
             <li><a href="#skills">SKILLS</a></li>
             <li><a href="#aboutme">ABOUT ME</a></li>
+            <li class="nav__contact"><a href="#contact">CONTACT</a></li>
         </nav>
       <main class="content__body">
           <img src="images/sunset-lighter.png">
