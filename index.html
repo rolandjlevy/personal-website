@@ -1,11 +1,14 @@
 <!--
 Things to add:
-- fixed menu at the top
+==============
+- fixed menu or dropdown menu at the top
 - social media icons
 - smooth scrolling for jumpto links
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+   //overflow-y: scroll;
+  // scroll-behavior: smooth;
 - apply Consolas font
+- use comments to seperate sections: nav, content, footer etc
+- look at sections, articles - they tell Google what they are
 -->
 
 <!DOCTYPE html>
@@ -25,34 +28,40 @@ Things to add:
 <body>
   <div class="app">
     <div id="home"></div>
-    <header class="masthead">
-        <div>
-            <a href="#home" class="masthead__logo__link">
-              <img class="masthead__logo" src="images/logo-curly-braces-orange.png">
-            </a> 
-        </div>
-          <div class="masthead__text">         
-          <h1 class="masthead__text__main">Roland Levy</h1>
-          <h1 class="masthead__text__sub">WEB DEVELOPER</h1>
-        </div>
-    </header>
-    <div class="content">
-        <nav class="content__nav">
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#aboutme">ABOUT ME</a></li>
-            <li class="nav__contact"><a href="#contact">CONTACT</a></li>
-        </nav>
-      <main class="content__body">
-          <img src="images/sunset-lighter.png">
-          <h2>Hi! My name is Roland</h2>
-          <p>I'm a full-stack web developer. My <a href="#skills">SKILLS</a> include Javascript, CSS, HTML5 and basic PHP. 
-            Feel free to browse my <a href="#projects">PROJECTS</a>,  
-            find out more <a href="#aboutme">ABOUT ME</a> and  
-            <a href="mailto:roland@growmediauk.com">GET IN TOUCH</a>
-          </p>
-          <div class="spacerlong"></div>
 
+    <header class="masthead">
+      <div>
+        <a href="#home" class="masthead__logo__link">
+          <img class="masthead__logo" src="images/logo-curly-braces-orange.png">
+        </a> 
+      </div>
+      <div class="masthead__text">         
+        <h1 class="masthead__text__main">Roland Levy</h1>
+        <h2 class="masthead__text__sub">WEB DEVELOPER</h2>
+      </div>
+    </header>
+
+    <div class="content">
+      <nav class="content__nav">
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#about-me">ABOUT ME</a></li>
+        <li class="nav__contact"><a href="#contact">CONTACT</a></li>
+      </nav>
+      
+      <main class="content__body">
+        
+        <section class="hero pad-bottom">
+        <img src="images/sunset-lighter.png">
+        <h2>Hi! My name is Roland</h2>
+        <p>I'm a full-stack web developer. My <a href="#skills">SKILLS</a> include Javascript, CSS, HTML5 and basic PHP. 
+          Feel free to browse my <a href="#projects">PROJECTS</a>,  
+          find out more <a href="#about-me">ABOUT ME</a> and  
+          <a href="mailto:roland@growmediauk.com">GET IN TOUCH</a>
+        </p>
+      </section>
+
+        <section class="projects pad-bottom">
           <h1 id="projects">PROJECTS</h1>
           <img src="images/website-meditation-centre.png">
           <div class="imagenotes">
@@ -78,8 +87,9 @@ Things to add:
               <li><strong>Built with:</strong> Wordpress</li>
             </ul>
           </div>
+        </section>
 
-          <div class="spacerlong"></div>
+        <section class="skills pad-bottom">
           <h1 id="skills">SKILLS</h1>
           <img src="images/macbook-pro-unsplash.png">
           <div class="imagenotes">
@@ -89,9 +99,10 @@ Things to add:
               <li><strong>Other skills:</strong> Event manager, meditation teacher</li>
             </ul>
           </div>
+        </section>
 
-          <div class="spacerlong"></div>
-          <h1 id="aboutme">ABOUT ME</h1>
+        <section class="about-me pad-bottom">
+          <h1 id="about-me">ABOUT ME</h1>
           <img src="images/Roland-photo-smaller.png">
           <p>
             I'm originally from a fine art background. After graduating I travelled, retrained and discovered coding. 
@@ -100,8 +111,10 @@ Things to add:
             <br><br>
             Writing code isn't just about completing tasks and projects but its more about how people think, speak and work. 
             I beleive the essential ingredient for succesful working relationships is a positive and peaceful mind. 
-            My intention is to do my job well and keep a positive attitude towards others - no matter how challenging the situation may be.           </p>
+            My intention is to do my job well and keep a positive attitude towards others - no matter how challenging the situation may be.</p>
+        </section>
       </main>
+
       <aside class="content__sidebar">
         <img src="images/transform-your-life-book.jpg">
         <h2>My favourite book</h2>
@@ -110,11 +123,11 @@ Things to add:
           Problems arise only if we respond to difficulties with a negative state of mind. Therefore, if we want to transform our life and be free from problems, we must transform our mind,' - Geshe Kelsang Gyatso</p>
       </aside>
     </div>
+
     <footer class="footer">
       <div class="footer__contact">CALL 07901 972 811 or <a href="mailto:roland@growmediauk.com">EMAIL ME</a></div>
       <div class="footer__socialmedia">FInd me on <a href="www.linkedin.com/in/roland-levy-4645b9163">LINKEDIN</a> and <a href="#">TWITTER</a></div>
     </footer>
   </div>
-  
 </body>
 </html>
