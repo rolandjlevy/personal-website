@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: inherit;
 }
@@ -30,6 +34,10 @@ h1, h2 {
   flex-direction: column;
   min-height: 100vh;
   font-family: 'Nunito', sans-serif;
+<<<<<<< HEAD
+=======
+  /* overflow-y: scroll; */
+>>>>>>> d8fbe4dd4e0709a98c5abcb728aac97ef947cf10
  }
 
 /* HEADER ////////////////////////////////////////// */

@@ -1,4 +1,15 @@
 
+#Things to add
+- fixed menu or dropdown menu at the top
+- social media icons
+- smooth scrolling for jumpto links
+  // overflow-y: scroll;
+  // scroll-behavior: smooth;
+- apply Consolas font
+- use comments to seperate sections: nav, content, footer etc
+- look at sections, articles - they tell Google what they are
+
+
 version 1
 I'm originally from a fine art background. After graduating I travelled, retrained and discovered coding. 
         Coding matched my fascination with how and why things work, or don't work - internally and externally. 
