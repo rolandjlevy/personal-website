@@ -302,8 +302,6 @@ img {
 
 @media (min-width: 768px) {
 
-  body {
-  }
   .masthead {
     display: flex;
     justify-content: flex-start;
