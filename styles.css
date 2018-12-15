@@ -12,7 +12,7 @@ body {
 }
 
 p {
-  margin: 0 0 1rem 0;
+  margin: 0 0.5rem 1rem 0.5rem;
 }
 
 h1, h2, h3 {
@@ -27,7 +27,7 @@ h1, h2, h3 {
 h1 {
   font-size: 2.25rem;
   text-align: center;
-  margin: 0.75rem 0;
+  margin: 1.75rem 0 0.75rem 0;
 }
 
 h3 {
@@ -35,9 +35,14 @@ h3 {
   text-align: left;
 }
 
+.section__img {
+  margin-top: 1.25rem;
+}
+
 article ul {
   margin-left: 0;
   padding-left: 0.5rem;
+  text-align: justify;
 }
 
 article ul li {
@@ -45,7 +50,7 @@ article ul li {
 }
 
 .pad-bottom {
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .body-font {
@@ -68,6 +73,7 @@ article ul li {
  h1.masthead__text__main {
   font-size: 2.2rem;
   /* padding: 0.9rem 0 0.2rem 0; */
+  margin-bottom: 0;
   padding: 0.5rem 0 0 0;
   line-height: 2.2rem;
   font-weight: 700;
@@ -76,7 +82,7 @@ article ul li {
 
 h2.masthead__text__sub {
   font-size: 1.2rem;
-  padding: 0.4rem 0 0.9rem 0;
+  padding: 0.4rem 0 1.25rem 0;
   line-height: 1.5rem;
 }
 
@@ -99,7 +105,7 @@ h2.masthead__text__sub {
 }
 
 .masthead__text__sub {
-  padding: 0 0 1rem 0;
+  padding: 0 0 1.25rem 0;
   font-size: 1.2rem;
   font-weight: 50;
   letter-spacing: 0.1rem;
@@ -168,18 +174,27 @@ h2.masthead__text__sub {
   outline: 0;
 }
 
-.content__body {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+.content__body  {
+  /* overflow-wrap: break-word;
+  word-wrap: break-word; */
   hyphens: auto;
   padding: 1rem;
   height: 100%;
   text-align: center;
 }
 
+article {
+  /* text-align: justify; */
+}
+
+.fas {
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
 .content__body img {
   width: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 /* FOOTER ////////////////////////////////////////// */
@@ -265,6 +280,7 @@ h2.masthead__text__sub {
   padding: 0.2rem 0.2rem 0.1rem 0.2rem;
   background: #ffffff;
   text-decoration: none;
+  text-align: center;
 }
 
 .content a:hover {
@@ -304,8 +320,7 @@ h2.masthead__text__sub {
   display: block;
   height: 100%;
   background: #ffffff; 
-  margin-bottom: 1.5rem;   
-  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
   text-align: left;
 }
 
