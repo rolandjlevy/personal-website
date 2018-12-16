@@ -470,9 +470,6 @@ img {
 
 @media (min-width: 960px) {
 
-  h2 {
-    margin: 1rem 0 0 0;
-  }
   .content {
     display: flex;
   }
@@ -509,4 +506,3 @@ img {
   }
 
 }
-
