@@ -92,7 +92,7 @@ h2.masthead__text__sub {
   align-items: center;
   justify-content: center;
   margin: 0;
-  background: #3f3542;
+  background: #245a87; /* #3f3542; */
   color: #ffffff;
   padding: 0.5rem 1rem;
 }
@@ -258,7 +258,7 @@ article {
 
 
 .footer__socialmedia {
-  background: #3f3542;
+  background: #245a87;
   color: #ffffff;
   padding: 0.6rem;
   text-align: center;
