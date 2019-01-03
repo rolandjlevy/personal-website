@@ -1,0 +1,33 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A really great way to stand out during the job hunting process is to have a personal website where hiring managers can learn a bit more about your skills and interests.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolandjlevy/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolandjlevy/personal-website/issues"
+  },
+  "homepage": "https://github.com/rolandjlevy/personal-website#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
